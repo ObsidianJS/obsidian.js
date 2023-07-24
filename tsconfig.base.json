@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@obsidianjs/obsidian.js": ["packages/obsidian.js/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
